@@ -1,8 +1,8 @@
 Prerequisite: Have JRE 1.8 installed, git to clone repository and Putty as simple client.
 
 Step 1: Clone repository from github in a directory i.e. C:\Dev\simple-chat
-Step 2: Compile the code with command "javac *.java"
-Step 3: Start chat server with command "java net.amoriconi.Main"
+Step 2: Compile the code with command "javac -d out src\net\amoriconi\*.java"
+Step 3: Start chat server with command "java net.amoriconi.Main" (from out directory of project)
 Step 4: Open an instance of putty then make a raw connection to localhost at port 10000, in the console output a message confirm that a new
         client is connected.
 Step 5: Open a second instance of putty and make a connection like previous step.
